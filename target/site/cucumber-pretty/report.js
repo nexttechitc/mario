@@ -55,35 +55,35 @@ formatter.match({
   "location": "homePageStepDep.launc(String)"
 });
 formatter.result({
-  "duration": 1837560700,
+  "duration": 2345967500,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.click_on_Signin_Link()"
 });
 formatter.result({
-  "duration": 222404700,
+  "duration": 132315200,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.click_on_Signin_Button()"
 });
 formatter.result({
-  "duration": 779973400,
+  "duration": 833018500,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.enter_UserPass_and_click_login()"
 });
 formatter.result({
-  "duration": 1249163700,
+  "duration": 1287672000,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.verify_user_login_successfully()"
 });
 formatter.result({
-  "duration": 1463434700,
+  "duration": 1567396400,
   "status": "passed"
 });
 formatter.scenario({
@@ -130,28 +130,28 @@ formatter.match({
   "location": "homePageStepDep.launc(String)"
 });
 formatter.result({
-  "duration": 795945000,
+  "duration": 531338200,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.type_product_name()"
 });
 formatter.result({
-  "duration": 116707500,
+  "duration": 55654800,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.click_search()"
 });
 formatter.result({
-  "duration": 1003028600,
+  "duration": 816602500,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.verify_Search_result()"
 });
 formatter.result({
-  "duration": 2881341400,
+  "duration": 2731040700,
   "status": "passed"
 });
 });
