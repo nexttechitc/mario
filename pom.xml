@@ -161,7 +161,7 @@
         <version>3.0.0-M3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>C:\Users\Owner\eclipse-workspace\com.NextTechItc.Demo\testng.xml</suiteXmlFile>
+            <suiteXmlFile>D:\PROJECTS\MARIOPROJECT\mario\testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

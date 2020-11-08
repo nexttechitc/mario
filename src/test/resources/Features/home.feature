@@ -12,7 +12,7 @@ Then Enter UserPass and click login
 Then Verify user login successfully 
 
 
-@Jahan
+@Senity
 Scenario: Verify search result
 
 Given launc "<URL>"

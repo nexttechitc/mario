@@ -55,35 +55,103 @@ formatter.match({
   "location": "homePageStepDep.launc(String)"
 });
 formatter.result({
-  "duration": 5922623700,
+  "duration": 1837560700,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.click_on_Signin_Link()"
 });
 formatter.result({
-  "duration": 667672300,
+  "duration": 222404700,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.click_on_Signin_Button()"
 });
 formatter.result({
-  "duration": 1014769200,
+  "duration": 779973400,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.enter_UserPass_and_click_login()"
 });
 formatter.result({
-  "duration": 7608529600,
+  "duration": 1249163700,
   "status": "passed"
 });
 formatter.match({
   "location": "homePageStepDep.verify_user_login_successfully()"
 });
 formatter.result({
-  "duration": 4755020200,
+  "duration": 1463434700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Verify search result",
+  "description": "",
+  "id": "search-functionality;verify-search-result",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 15,
+      "name": "@Senity"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "launc \"\u003cURL\u003e\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "Type product name",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 20,
+  "name": "Click search",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 21,
+  "name": "Verify Search result",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cURL\u003e",
+      "offset": 7
+    }
+  ],
+  "location": "homePageStepDep.launc(String)"
+});
+formatter.result({
+  "duration": 795945000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "homePageStepDep.type_product_name()"
+});
+formatter.result({
+  "duration": 116707500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "homePageStepDep.click_search()"
+});
+formatter.result({
+  "duration": 1003028600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "homePageStepDep.verify_Search_result()"
+});
+formatter.result({
+  "duration": 2881341400,
   "status": "passed"
 });
 });
