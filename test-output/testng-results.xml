@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-15T14:04:30 CST" name="Regression" finished-at="2020-11-15T14:04:50 CST" duration-ms="20205">
+  <suite started-at="2020-12-15T17:27:55 CST" name="Default suite" finished-at="2020-12-15T17:28:10 CST" duration-ms="15221">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-11-15T14:04:30 CST" name="Test" finished-at="2020-11-15T14:04:50 CST" duration-ms="20205">
+    <test started-at="2020-12-15T17:27:55 CST" name="Default test" finished-at="2020-12-15T17:28:10 CST" duration-ms="15221">
       <class name="com.TestRunner.Demo.TestRunner">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-11-15T14:04:30 CST" name="setUP" finished-at="2020-11-15T14:04:37 CST" duration-ms="6486" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-12-15T17:27:55 CST" name="setUP" finished-at="2020-12-15T17:28:01 CST" duration-ms="5809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-11-15T14:04:37 CST" name="setUpClass" finished-at="2020-11-15T14:04:37 CST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-12-15T17:28:01 CST" name="setUpClass" finished-at="2020-12-15T17:28:01 CST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-11-15T14:04:37 CST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-15T14:04:50 CST" duration-ms="12549" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-12-15T17:28:01 CST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-15T17:28:10 CST" duration-ms="8424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-11-15T14:04:50 CST" name="tearDownClass" finished-at="2020-11-15T14:04:50 CST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-12-15T17:28:10 CST" name="tearDownClass" finished-at="2020-12-15T17:28:10 CST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-11-15T14:04:50 CST" name="tearDown" finished-at="2020-11-15T14:04:50 CST" duration-ms="837" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestRunner.Demo.TestRunner@1f97cf0d]" started-at="2020-12-15T17:28:10 CST" name="tearDown" finished-at="2020-12-15T17:28:10 CST" duration-ms="671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestRunner.Demo.TestRunner -->
-    </test> <!-- Test -->
-  </suite> <!-- Regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
