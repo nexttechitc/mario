@@ -38,7 +38,7 @@ public class testBase {
 		
 		if(browserName.equals("CC")) {
 			
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Webdriver\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Webdriver2\\chromedriver.exe" );
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(utiliti.page_Load_Timeout, TimeUnit.SECONDS);
