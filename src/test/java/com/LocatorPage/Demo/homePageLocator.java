@@ -34,7 +34,7 @@ public class homePageLocator extends testBase{
 	public WebElement SearchField;
 	@FindBy(how=How.XPATH, using="//span[@class='mh-search-button-label']")
 	public WebElement SearchButton;
-	@FindBy(how=How.XPATH, using="//a[text()='Designed to be the best.']")
+	@FindBy(how=How.XPATH, using="//*[contains(text(), 'Designed to be the best.')]")
 	public WebElement VerifySearchResult;
 	
 	
