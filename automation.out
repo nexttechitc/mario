@@ -1,0 +1,6 @@
+2021-05-27 22:05:851 INFO  LogsHelper:22 - Opening URL
+2021-05-27 22:05:34 INFO  LogsHelper:28 - Clicking on Signin Link
+2021-05-27 22:05:646 INFO  LogsHelper:34 - Clicking on Signin Button
+2021-05-27 22:05:42 INFO  LogsHelper:40 - Entering Username & Password & Clicking login
+2021-05-27 22:05:662 INFO  LogsHelper:46 - User Profile Displayed
+2021-05-27 22:05:527 INFO  LogsHelper:22 - Opening URL

@@ -1,7 +1,0 @@
-com\TestUtil\Demo\testBase.class
-com\ActionPage\Demo\homePageAction.class
-com\TestUtil\Demo\testData.class
-com\LocatorPage\Demo\homePageLocator.class
-com\TestUtil\Demo\utiliti.class
-SepDep\homePageStepDep.class
-com\TestRunner\Demo\TestRunner.class
