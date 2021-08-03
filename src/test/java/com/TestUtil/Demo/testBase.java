@@ -43,11 +43,12 @@ public class testBase {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(utiliti.page_Load_Timeout, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(utiliti.implicitly_Wait, TimeUnit.SECONDS);  
-			
+			System.out.println("This is Chrome Browser");
 		}
 		else if(browserName.equals("FF"));
 		//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+ "\\Webdriver\\chromedriver.exe" );
 		//driver = new FirefoxDriver();
+		//System.out.println("This is FF browser");
 		
 		
 		
