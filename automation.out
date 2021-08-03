@@ -1,6 +1,6 @@
-2021-05-29 12:05:816 INFO  LogsHelper:22 - Opening URL
-2021-05-29 12:05:336 INFO  LogsHelper:28 - Clicking on Signin Link
-2021-05-29 12:05:508 INFO  LogsHelper:34 - Clicking on Signin Button
-2021-05-29 12:05:221 INFO  LogsHelper:40 - Entering Username & Password & Clicking login
-2021-05-29 12:05:546 INFO  LogsHelper:46 - User Profile Displayed
-2021-05-29 12:05:688 INFO  LogsHelper:22 - Opening URL
+2021-08-02 20:08:175 INFO  LogsHelper:22 - Opening URL
+2021-08-02 20:08:364 INFO  LogsHelper:28 - Clicking on Signin Link
+2021-08-02 20:08:327 INFO  LogsHelper:34 - Clicking on Signin Button
+2021-08-02 20:08:749 INFO  LogsHelper:40 - Entering Username & Password & Clicking login
+2021-08-02 20:08:537 INFO  LogsHelper:46 - User Profile Displayed
+2021-08-02 20:08:365 INFO  LogsHelper:22 - Opening URL

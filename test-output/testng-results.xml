@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28088" started-at="2021-05-29T12:08:36 CDT" finished-at="2021-05-29T12:09:04 CDT">
+  <suite name="Default suite" duration-ms="11712" started-at="2021-08-02T20:20:25 CDT" finished-at="2021-08-02T20:20:37 CDT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="28088" started-at="2021-05-29T12:08:36 CDT" finished-at="2021-05-29T12:09:04 CDT">
+    <test name="Default test" duration-ms="11712" started-at="2021-08-02T20:20:25 CDT" finished-at="2021-08-02T20:20:37 CDT">
       <class name="com.TestRunner.Demo.TestRunner">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="setUP" is-config="true" duration-ms="3531" started-at="2021-05-29T12:08:36 CDT" finished-at="2021-05-29T12:08:39 CDT">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="setUP" is-config="true" duration-ms="1635" started-at="2021-08-02T20:20:25 CDT" finished-at="2021-08-02T20:20:27 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="setUpClass" is-config="true" duration-ms="330" started-at="2021-05-29T12:08:39 CDT" finished-at="2021-05-29T12:08:40 CDT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="setUpClass" is-config="true" duration-ms="139" started-at="2021-08-02T20:20:27 CDT" finished-at="2021-08-02T20:20:27 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="feature" duration-ms="23209" started-at="2021-05-29T12:08:40 CDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-29T12:09:03 CDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="feature" duration-ms="9180" started-at="2021-08-02T20:20:27 CDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-02T20:20:36 CDT">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2021-05-29T12:09:03 CDT" finished-at="2021-05-29T12:09:03 CDT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2021-08-02T20:20:36 CDT" finished-at="2021-08-02T20:20:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="tearDown" is-config="true" duration-ms="838" started-at="2021-05-29T12:09:03 CDT" finished-at="2021-05-29T12:09:04 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestRunner.Demo.TestRunner@17d677df]" name="tearDown" is-config="true" duration-ms="684" started-at="2021-08-02T20:20:37 CDT" finished-at="2021-08-02T20:20:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
