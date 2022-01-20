@@ -16,8 +16,8 @@ public class homePageAction extends testBase{
 		
 		
 	}
-	public void ClickonSigninButton() {
-		
+	public void ClickonSigninButton() throws Exception {
+		//Thread.sleep(5000);
 		HomePageLocator.SigninButton.click();
 		
 	}

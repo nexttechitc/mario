@@ -3,88 +3,6 @@
     "line": 1,
     "elements": [
       {
-        "line": 6,
-        "name": "Verify Login",
-        "description": "",
-        "id": "search-functionality;verify-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1321034501,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "launc \"\u003cURL\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u003cURL\u003e",
-                  "offset": 7
-                }
-              ],
-              "location": "homePageStepDep.launc(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 186752101,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click on Signin Link",
-            "match": {
-              "location": "homePageStepDep.click_on_Signin_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1962106700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Click on Signin Button",
-            "match": {
-              "location": "homePageStepDep.click_on_Signin_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 420827000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Enter UserPass and click login",
-            "match": {
-              "location": "homePageStepDep.enter_UserPass_and_click_login()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1788481900,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Verify user login successfully",
-            "match": {
-              "location": "homePageStepDep.verify_user_login_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@Senity"
-          }
-        ]
-      },
-      {
         "line": 16,
         "name": "Verify search result",
         "description": "",
@@ -94,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 826995901,
+              "duration": 788261300,
               "status": "passed"
             },
             "line": 18,
@@ -112,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 178843000,
+              "duration": 306105500,
               "status": "passed"
             },
             "line": 19,
@@ -124,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 2131675799,
+              "duration": 2483268600,
               "status": "passed"
             },
             "line": 20,
@@ -136,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 315903000,
+              "duration": 435670200,
               "status": "passed"
             },
             "line": 21,

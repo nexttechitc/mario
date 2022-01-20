@@ -19,7 +19,7 @@ public class homePageLocator extends testBase{
 	@FindBy(how=How.XPATH, using="//span[text()='Sign In']")
 	public WebElement SigninLink;
 	
-	@FindBy(how=How.XPATH, using="//a[text()='Sign In']")
+	@FindBy(how=How.XPATH, using="/html/body/main/section[1]/header/div[1]/div[2]/div[2]/div/div[2]/div/div[2]/div[3]/a[1]")
 	public WebElement SigninButton;
 	@FindBy(how=How.ID, using="EmailAddress")
 	public WebElement Username;
@@ -27,12 +27,12 @@ public class homePageLocator extends testBase{
 	public WebElement Password;
 	@FindBy(how=How.XPATH, using="//button[text()='Sign In']")
 	public WebElement LoginButton;
-	@FindBy(how=How.XPATH, using="//span[text()='MOHAMMAD JAHAN']")
+	@FindBy(how=How.XPATH, using="//span[text()='MOHAMMAD']")
 	public WebElement VerifyLogin;
 	
 	@FindBy(how=How.XPATH, using="//input[@class='mh-search-input']")
 	public WebElement SearchField;
-	@FindBy(how=How.XPATH, using="//span[@class='mh-search-button-label']")
+	@FindBy(how=How.XPATH, using="//button[@class='mh-search-btn mh-search-submit']")
 	public WebElement SearchButton;
 	@FindBy(how=How.XPATH, using="//*[contains(text(), 'Designed to be the best.')]")
 	public WebElement VerifySearchResult;

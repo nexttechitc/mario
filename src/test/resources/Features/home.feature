@@ -2,7 +2,7 @@ Feature: Search Functionality
 
 
 
-@Senity
+@S
 Scenario: Verify Login
 
 Given launc "<URL>"
