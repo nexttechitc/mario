@@ -12,7 +12,7 @@ Then Enter UserPass and click login
 Then Verify user login successfully 
 
 
-@Senity
+@S
 Scenario: Verify search result
 
 Given launc "<URL>"

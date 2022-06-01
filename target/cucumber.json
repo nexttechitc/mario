@@ -3,6 +3,87 @@
     "line": 1,
     "elements": [
       {
+        "line": 6,
+        "name": "Verify Login",
+        "description": "",
+        "id": "search-functionality;verify-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003705700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launc \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 7
+                }
+              ],
+              "location": "homePageStepDep.launc(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161612000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Signin Link",
+            "match": {
+              "location": "homePageStepDep.click_on_Signin_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9215969300,
+              "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.ActionPage.Demo.homePageAction.ClickonSigninButton(homePageAction.java:21)\r\n\tat SepDep.homePageStepDep.click_on_Signin_Button(homePageStepDep.java:33)\r\n\tat ✽.Then Click on Signin Button(home.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Click on Signin Button",
+            "match": {
+              "location": "homePageStepDep.click_on_Signin_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter UserPass and click login",
+            "match": {
+              "location": "homePageStepDep.enter_UserPass_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Verify user login successfully",
+            "match": {
+              "location": "homePageStepDep.verify_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@S"
+          }
+        ]
+      },
+      {
         "line": 16,
         "name": "Verify search result",
         "description": "",
@@ -12,8 +93,9 @@
         "steps": [
           {
             "result": {
-              "duration": 788261300,
-              "status": "passed"
+              "duration": 103796800,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d102.0.5005.63)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-3ROKAB7\u0027, ip: \u0027192.168.254.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\nextt\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c26f975b6481234ac0340dbdf04497e1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat com.TestUtil.Demo.testBase.getURL(testBase.java:59)\r\n\tat SepDep.homePageStepDep.launc(homePageStepDep.java:21)\r\n\tat ✽.Given launc \"\u003cURL\u003e\"(home.feature:18)\r\n",
+              "status": "failed"
             },
             "line": 18,
             "name": "launc \"\u003cURL\u003e\"",
@@ -30,8 +112,7 @@
           },
           {
             "result": {
-              "duration": 306105500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "Type product name",
@@ -42,8 +123,7 @@
           },
           {
             "result": {
-              "duration": 2483268600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "Click search",
@@ -54,8 +134,7 @@
           },
           {
             "result": {
-              "duration": 435670200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "Verify Search result",
@@ -68,7 +147,7 @@
         "tags": [
           {
             "line": 15,
-            "name": "@Senity"
+            "name": "@S"
           }
         ]
       }

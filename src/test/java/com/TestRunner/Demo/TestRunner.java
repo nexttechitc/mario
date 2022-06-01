@@ -2,6 +2,7 @@ package com.TestRunner.Demo;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
 import com.TestUtil.Demo.testBase;
 
@@ -10,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = {"src/test/resources/Features"} , 
 plugin = {"json:target/cucumber.json"},
-glue = "SepDep",tags= {"@Senity"})
+glue = "SepDep",tags= {"@S"})
 
 
 
