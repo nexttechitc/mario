@@ -46,9 +46,6 @@ public class testBase {
 			System.out.println("This is Chrome Browser");
 		}
 		else if(browserName.equals("FF"));
-		//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+ "\\Webdriver\\chromedriver.exe" );
-		//driver = new FirefoxDriver();
-		//System.out.println("This is FF browser");
 		
 		
 		
@@ -57,7 +54,7 @@ public class testBase {
 	public static void getURL(String URL) {
 		
 		driver.get(pro.getProperty("QAurl"));
-		
+		testdata.takescreenshot(driver, "Home Page");
 		
 		
 	}

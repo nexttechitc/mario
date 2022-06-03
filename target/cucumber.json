@@ -3,75 +3,168 @@
     "line": 1,
     "elements": [
       {
-        "line": 6,
-        "name": "Verify Login",
+        "line": 5,
+        "name": "Verify about us page",
         "description": "",
-        "id": "search-functionality;verify-login",
+        "id": "feature2;verify-about-us-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1003705700,
+              "duration": 1022385800,
               "status": "passed"
             },
-            "line": 8,
-            "name": "launc \"\u003cURL\u003e\"",
+            "line": 7,
+            "name": "launch \"\u003cURL\u003e\"",
             "match": {
               "arguments": [
                 {
                   "val": "\u003cURL\u003e",
-                  "offset": 7
+                  "offset": 8
                 }
               ],
-              "location": "homePageStepDep.launc(String)"
+              "location": "loginDep.launc(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 161612000,
+              "duration": 95906700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click About US",
+            "match": {
+              "location": "feature2.click_About_US()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10081799400,
               "status": "passed"
             },
             "line": 9,
-            "name": "Click on Signin Link",
+            "name": "Verify about us page",
             "match": {
-              "location": "homePageStepDep.click_on_Signin_Link()"
+              "location": "feature2.verify_about_us_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "feature2",
+    "description": "",
+    "id": "feature2",
+    "keyword": "Feature",
+    "uri": "feature2.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify User added Samsung6 in cart",
+        "description": "",
+        "id": "adding-item-in-cart;verify-user-added-samsung6-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 656504000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "loginDep.launc(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53479500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click login",
+            "match": {
+              "location": "loginDep.click_login()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9215969300,
-              "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.ActionPage.Demo.homePageAction.ClickonSigninButton(homePageAction.java:21)\r\n\tat SepDep.homePageStepDep.click_on_Signin_Button(homePageStepDep.java:33)\r\n\tat ✽.Then Click on Signin Button(home.feature:10)\r\n",
-              "status": "failed"
+              "duration": 5626836200,
+              "status": "passed"
             },
             "line": 10,
-            "name": "Click on Signin Button",
+            "name": "Enter username and password and click login",
             "match": {
-              "location": "homePageStepDep.click_on_Signin_Button()"
+              "location": "loginDep.enter_username_and_password_and_click_login()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3734032300,
+              "status": "passed"
             },
             "line": 11,
-            "name": "Enter UserPass and click login",
+            "name": "Click Samsung6 hyperlink and add to cart",
             "match": {
-              "location": "homePageStepDep.enter_UserPass_and_click_login()"
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 13
+                }
+              ],
+              "location": "loginDep.click_Samsung_hyperlink_and_add_to_cart(int)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 262983300,
+              "status": "passed"
             },
             "line": 12,
-            "name": "Verify user login successfully",
+            "name": "Click Cart",
             "match": {
-              "location": "homePageStepDep.verify_user_login_successfully()"
+              "location": "loginDep.click_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 591442100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify Samsung6 added in cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 14
+                }
+              ],
+              "location": "loginDep.verify_Samsung_added_in_cart(int)"
             },
             "keyword": "Then "
           }
@@ -79,83 +172,15 @@
         "tags": [
           {
             "line": 5,
-            "name": "@S"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "Verify search result",
-        "description": "",
-        "id": "search-functionality;verify-search-result",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 103796800,
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d102.0.5005.63)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-3ROKAB7\u0027, ip: \u0027192.168.254.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\nextt\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c26f975b6481234ac0340dbdf04497e1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat com.TestUtil.Demo.testBase.getURL(testBase.java:59)\r\n\tat SepDep.homePageStepDep.launc(homePageStepDep.java:21)\r\n\tat ✽.Given launc \"\u003cURL\u003e\"(home.feature:18)\r\n",
-              "status": "failed"
-            },
-            "line": 18,
-            "name": "launc \"\u003cURL\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u003cURL\u003e",
-                  "offset": 7
-                }
-              ],
-              "location": "homePageStepDep.launc(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "name": "Type product name",
-            "match": {
-              "location": "homePageStepDep.type_product_name()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "Click search",
-            "match": {
-              "location": "homePageStepDep.click_search()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "Verify Search result",
-            "match": {
-              "location": "homePageStepDep.verify_Search_result()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@S"
+            "name": "@test"
           }
         ]
       }
     ],
-    "name": "Search Functionality",
+    "name": "Adding Item In Cart",
     "description": "",
-    "id": "search-functionality",
+    "id": "adding-item-in-cart",
     "keyword": "Feature",
-    "uri": "home.feature"
+    "uri": "login.feature"
   }
 ]
