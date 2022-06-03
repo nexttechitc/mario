@@ -201,7 +201,7 @@
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         <suiteXmlFiles>
-                            <suiteXmlFile>C:\Users\nextt\Documents\MY CLASS\demoblaze\testng.xml</suiteXmlFile>
+                            <suiteXmlFile>D:\PROJECTS\MARIOPROJECT\mario\testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         </configuration>
                     </execution>
